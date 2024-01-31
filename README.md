@@ -1,7 +1,7 @@
 ![image](https://github.com/erikhoudini/sckillermusicplayer/assets/111225020/6b7c8ebc-555e-4375-8438-57a732608b3a)
 
 Welcome to the SCKiller Music Player, a sleek and modern music player designed for integration into static websites. This player, inspired by the iconic Zune design, offers a refreshing alternative to hosting music on platforms like Soundcloud. Our goal is to provide a simple yet effective web-based music player catering to the resurgence of personal websites, particularly on platforms like Neocities.
-
+Test version here: https://erikhoudini.com/tracks/player
 Features
 Waveform.js Integration: Utilizes Waveform.js for an engaging and interactive audio visualization.
 Zune-Inspired Design: Boasts a sleek, modern look reminiscent of the classic Zune player.
