@@ -1,5 +1,4 @@
-SCKiller Music Player README
-Overview
+
 Welcome to the SCKiller Music Player, a sleek and modern music player designed for integration into static websites. This player, inspired by the iconic Zune design, offers a refreshing alternative to hosting music on platforms like Soundcloud. Our goal is to provide a simple yet effective web-based music player catering to the resurgence of personal websites, particularly on platforms like Neocities.
 
 Features
