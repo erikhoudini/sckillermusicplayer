@@ -1,0 +1,111 @@
+<style>
+    /* Sets the default font, background color, and text color for the entire webpage */
+    body {
+        font-family: 'Instrumenta Sans', sans-serif;
+        background-color: white;
+        color: #7B1ACB;
+    }
+
+    /* Styles the main container, centers its content vertically and horizontally, and ensures it takes full viewport height */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    /* Styles the song title, sets its size, margin, and transforms text to lowercase */
+    .song-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-transform: lowercase;
+    }
+
+    /* Styles the album art, sets its width, height, margin, and adds a shadow effect */
+    .album-art {
+        width: 300px;
+        height: auto;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+        margin-bottom: 20px;
+    }
+
+    /* Styles the waveform container, sets its width and margin */
+    .waveform-container {
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 20px;
+    }
+
+    /* Styles the control buttons container, sets it as a flexbox to align buttons, and defines their spacing */
+    .controls {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    /* Styles for all control buttons (play-pause, next, prev, share), sets font, cursor style, background color, text color, padding, border, and transition effect for color changes */
+    .play-pause,
+    .next-button,
+    .prev-button,
+    .share-button {
+        font-family: 'Instrumenta Sans', sans-serif;
+        cursor: pointer;
+        background-color: transparent;
+        color: #7B1ACB;
+        padding: 5px 15px;
+        border: none;
+        transition: color 0.3s;
+    }
+
+    /* Hover effect for control buttons, changes the color */
+    .play-pause:hover,
+    .next-button:hover,
+    .prev-button:hover,
+    .share-button:hover {
+        color: rgba(123,26,203,0.7);
+    }
+
+    /* Styles for the music player, sets it to full width, auto height, and hides it by default */
+    .music-player {
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    /* Styles for the playlist container, sets it as a flexbox column, defines width, padding, border, and border radius */
+    .playlist {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 600px;
+        padding: 10px;
+        border: 1px solid #7B1ACB;
+        border-radius: 5px;
+    }
+
+    /* Styles for individual playlist items, sets layout as flexbox, aligns items, defines padding, cursor style, and transition effect for background color */
+    .playlist-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    /* Hover effect for playlist items, changes background color */
+    .playlist-item:hover {
+        background-color: rgba(123,26,203,0.1);
+    }
+
+    /* Media query for larger screens (min-width: 768px), changes the width and margin of the album art for better layout on larger screens */
+    @media screen and (min-width: 768px) {
+        .album-art {
+            width: 500px;
+            margin-bottom: 30px;
+        }
+    }
+</style>
