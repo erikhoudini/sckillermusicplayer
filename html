@@ -1,0 +1,39 @@
+<body>
+    <!-- Container for the entire music player interface -->
+    <div class="container">
+        <!-- Displays the title of the current song -->
+        <span class="song-title" id="song-title">YOUR SONG TITLE HERE</span>
+
+        <!-- Displays the album art of the current song -->
+        <img class="album-art" id="album-art" src="YOUR ALBUM ART URL HERE" alt="Album Art Placeholder">
+
+        <!-- Container for the waveform display -->
+        <div class="waveform-container" id="waveform"></div>
+
+        <!-- Music player controls (prev, play/pause, next, share) -->
+        <div class="controls">
+            <button class="prev-button">Prev</button>
+            <button class="play-pause">Play</button>
+            <button class="next-button">Next</button>
+            <button class="share-button">Share</button>
+        </div>
+
+        <!-- Audio element for playing music -->
+        <audio class="music-player" id="music-player" src="YOUR SONG URL HERE"></audio>
+
+        <!-- Playlist containing multiple tracks -->
+        <div class="playlist" id="playlist">
+            <!-- Individual playlist items -->
+            <!-- Replace 'YOUR SONG URL HERE' with the actual song URL, 'YOUR SONG TITLE HERE' with the song title, and 'YOUR ALBUM ART URL HERE' with the URL to the album art image -->
+            <div class="playlist-item" data-src="YOUR SONG URL HERE" data-title="YOUR SONG TITLE HERE" data-art="YOUR ALBUM ART URL HERE">
+                <span>SONG TITLE HERE</span>
+            </div>
+            <!-- Add more .playlist-item divs as needed for additional songs -->
+        </div>
+
+        <!-- Footer image (optional) -->
+        <img src="YOUR FOOTER IMAGE URL HERE" alt="Footer Image Placeholder">
+    </div>
+
+    <!-- Script to handle the music player functionality (not shown in this snippet) -->
+</body>
